@@ -1,9 +1,9 @@
 # Drug-awareness
 Drug Awareness Website
 
-Members
-1. Hillary Wafula
-2. Mary Nyambura
-3. Brian Ngigi
-4. Alfred Kiptoo
+Members                                        Emails
+1. Hillary Wafula                 hillarywafula837@gmail.com
+2. Mary Nyambura Njoroge
+3. Brian Ngugi  Kamau                   briankamau89@gmail.com
+4. Alfred Kiptoo Rono
 5. Tina
