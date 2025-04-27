@@ -3,7 +3,7 @@ Drug Awareness Website
 
 Members                                        Emails
 1. Hillary Wafula                 hillarywafula837@gmail.com
-2. Mary Nyambura Njoroge
+2. Mary Nyambura Njoroge           mariannapeters203@gmail.com
 3. Brian Ngugi  Kamanu                   briankamanu89@gmail.com
 4. Alfred Kiptoo Rono              ronoalfred01@gmail.com
 5. Tina
