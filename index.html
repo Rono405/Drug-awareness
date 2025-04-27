@@ -4,178 +4,143 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Drug Awareness</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-<!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3">
-  <div class="container">
-    <a class="navbar-brand" href="#">Drug Awareness</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
-        <li class="nav-item"><a class="nav-link" href="#resources">Resources</a></li>
-        <li class="nav-item"><a class="nav-link" href="#support">Help & Support</a></li>
-        <li class="nav-item"><a class="nav-link" href="#statistics">Statistics</a></li>
-        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
 
-<!-- Hero Section -->
-<header class="hero-section d-flex align-items-center text-center text-white" id="home">
-  <div class="container">
-    <h1>Fight Against Drug Abuse</h1>
-    <p class="lead">Join us in raising awareness and fighting drug abuse.</p>
-    <a href="#resources" class="btn btn-success mt-3">Learn More</a>
-    <div class="mt-4">
-      <img src="https://images.pexels.com/photos/2769296/pexels-photo-2769296.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Hero Image" class="img-fluid rounded mt-4" style="max-height: 400px;">
-    </div>
-  </div>
+<header>
+  <h1>Drug Awareness</h1>
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#resources">Resources</a></li>
+      <li><a href="#support">Help & Support</a></li>
+      <li><a href="#statistics">Statistics</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
 </header>
 
-<!-- Educational Resources Section -->
-<section class="py-5" id="resources">
-  <div class="container">
-    <h2 class="text-center mb-5">Educational Resources</h2>
-    <p class="text-center">Understanding the risks and effects of drug abuse is crucial to prevention. Here are some resources:</p>
-
-    <div class="table-responsive mt-4">
-      <table class="table table-bordered table-striped">
-        <caption class="text-center">Drugs and Their Effects</caption>
-        <thead class="table-dark">
-          <tr>
-            <th>Drug</th>
-            <th>Category</th>
-            <th>Effects</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Heroin</td>
-            <td>Opioids</td>
-            <td>Highly addictive, causes euphoria, drowsiness, and slows breathing.</td>
-          </tr>
-          <tr>
-            <td>Cocaine</td>
-            <td>Stimulants</td>
-            <td>Increases heart rate, energy, and causes paranoia.</td>
-          </tr>
-          <tr>
-            <td>Marijuana</td>
-            <td>Cannabinoids</td>
-            <td>Relaxation, altered senses, and impaired motor skills.</td>
-          </tr>
-          <tr>
-            <td>Ecstasy (MDMA)</td>
-            <td>Hallucinogens</td>
-            <td>Increased empathy, energy, sensory perception; can cause dehydration and paranoia.</td>
-          </tr>
-        </tbody>
-      </table>
+<section id="home" class="hero">
+  <div class="hero-content">
+    <div class="hero-image">
+      <img src="https://images.pexels.com/photos/2769296/pexels-photo-2769296.jpeg?auto=compress&cs=tinysrgb&w=600" alt="People raising hands together">
+    </div>
+    <div class="hero-text">
+      <h2>Fight Against Drug Abuse</h2>
+      <p>Drug abuse affects millions globally, causing health crises, broken families, and shattered dreams. We believe that awareness and education are the first steps towards a healthier society.</p>
+      <p>By working together, we can create a future free from the chains of addiction. Learn, share, and support — every action counts.</p>
+      <a href="#resources" class="btn">Learn More</a>
     </div>
   </div>
 </section>
 
-<!-- Help & Support Section -->
-<section class="py-5 bg-light" id="support">
-  <div class="container">
-    <h2 class="text-center mb-5">Help & Support</h2>
-    <p class="text-center">If you or someone you know is struggling with drug abuse, help is available. Contact these resources:</p>
 
-    <ul class="list-unstyled text-center mb-4">
-      <li><a href="tel:1-800-HELP-LINE" class="btn btn-outline-success my-2">National Helpline: 1-800-HELP-LINE</a></li>
-      <li><a href="https://www.rehabcenter.com" class="btn btn-outline-success my-2" target="_blank">Find a Rehabilitation Center</a></li>
-    </ul>
+<section id="resources">
+  <h2>Educational Resources</h2>
+  <p>Understanding the risks and effects of drug abuse is crucial to prevention. Here are some important resources:</p>
 
-    <div class="text-center mt-4">
-      <img src="https://via.placeholder.com/700x300" alt="Support Image" class="img-fluid rounded">
-    </div>
-  </div>
+  <table>
+    <caption>Drugs and Their Effects</caption>
+    <thead>
+      <tr>
+        <th>Drug</th>
+        <th>Category</th>
+        <th>Effects</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Heroin</td>
+        <td>Opioids</td>
+        <td>Highly addictive, causes euphoria, drowsiness, and slows breathing.</td>
+      </tr>
+      <tr>
+        <td>Cocaine</td>
+        <td>Stimulants</td>
+        <td>Increases heart rate, energy, and causes paranoia.</td>
+      </tr>
+      <tr>
+        <td>Marijuana</td>
+        <td>Cannabinoids</td>
+        <td>Relaxation, altered senses, and impaired motor skills.</td>
+      </tr>
+      <tr>
+        <td>Ecstasy (MDMA)</td>
+        <td>Hallucinogens</td>
+        <td>Increased empathy, energy, and sensory perception, but can cause dehydration and paranoia.</td>
+      </tr>
+    </tbody>
+  </table>
 </section>
 
-<!-- Statistics Section -->
-<section class="py-5" id="statistics">
-  <div class="container">
-    <h2 class="text-center mb-5">Drug Abuse Statistics</h2>
-    <p class="text-center">Drug abuse is a growing issue worldwide. Here are some alarming statistics:</p>
 
-    <div class="table-responsive mt-4">
-      <table class="table table-bordered table-striped">
-        <caption class="text-center">Statistics on Drug Abuse</caption>
-        <thead class="table-dark">
-          <tr>
-            <th>Year</th>
-            <th>Statistic</th>
-            <th>Source</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>2024</td>
-            <td>Drug overdose deaths rose by 30%</td>
-            <td>CDC</td>
-          </tr>
-          <tr>
-            <td>2023</td>
-            <td>Over 50 million Americans reported using illegal drugs</td>
-            <td>National Institute on Drug Abuse</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-
-    <div class="text-center mt-4">
-      <img src="https://via.placeholder.com/800x400" alt="Statistics Infographic" class="img-fluid rounded">
-    </div>
-  </div>
+<section id="support">
+  <h2>Help & Support</h2>
+  <p>If you or someone you know is struggling with drug abuse, help is available. Contact these resources:</p>
+  <ul>
+    <li><a href="tel:1-800-HELP-LINE">National Helpline: 1-800-HELP-LINE</a></li>
+    <li><a href="https://www.rehabcenter.com" target="_blank" rel="noopener noreferrer">Find a Rehabilitation Center</a></li>
+  </ul>
+  <img src="https://via.placeholder.com/700x300" alt="Support services illustration">
 </section>
 
-<!-- Contact Section -->
-<section class="py-5 bg-light" id="contact">
-  <div class="container">
-    <h2 class="text-center mb-5">Contact Us</h2>
-    <p class="text-center mb-4">If you have any questions or need assistance, reach out to us below:</p>
+<section id="statistics">
+  <h2>Drug Abuse Statistics</h2>
+  <p>Drug abuse is a growing issue worldwide. Here are some alarming statistics:</p>
 
-    <div class="row justify-content-center">
-      <div class="col-md-8">
-        <form action="submit_contact.php" method="post" class="p-4 border rounded bg-white shadow">
-          <div class="mb-3">
-            <label for="name" class="form-label">Your Name</label>
-            <input type="text" id="name" name="name" class="form-control" required>
-          </div>
-          <div class="mb-3">
-            <label for="email" class="form-label">Your Email</label>
-            <input type="email" id="email" name="email" class="form-control" required>
-          </div>
-          <div class="mb-3">
-            <label for="message" class="form-label">Your Message</label>
-            <textarea id="message" name="message" class="form-control" rows="4" required></textarea>
-          </div>
-          <div class="text-center">
-            <button type="submit" class="btn btn-success">Send Message</button>
-          </div>
-        </form>
-      </div>
-    </div>
-  </div>
+  <table>
+    <caption>Statistics on Drug Abuse</caption>
+    <thead>
+      <tr>
+        <th>Year</th>
+        <th>Statistic</th>
+        <th>Source</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>2024</td>
+        <td>Drug overdose deaths rose by 30%</td>
+        <td>CDC</td>
+      </tr>
+      <tr>
+        <td>2023</td>
+        <td>Over 50 million Americans reported using illegal drugs</td>
+        <td>National Institute on Drug Abuse</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <img src="https://via.placeholder.com/800x400" alt="Drug abuse statistics infographic">
 </section>
 
-<!-- Footer -->
-<footer class="footer bg-dark text-light py-4 mt-5">
-  <div class="container text-center">
-    <p>© 2025 Drug Awareness. All Rights Reserved.</p>
-  </div>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <p>If you have any questions or need assistance, reach out to us below:</p>
+
+  <form action="submit_contact.php" method="post">
+    <label for="name">Your Name</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Your Email</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="message">Your Message</label>
+    <textarea id="message" name="message" rows="4" required></textarea>
+
+    <button type="submit" class="btn">Send Message</button>
+  </form>
+</section>
+
+
+<footer>
+  <p>&copy; 2025 Drug Awareness. All Rights Reserved.</p>
 </footer>
-
-<!-- Bootstrap JS -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
 
 </body>
 </html>
+
